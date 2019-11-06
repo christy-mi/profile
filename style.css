@@ -1,0 +1,98 @@
+h1 {
+  font-size: 32px;
+  font-weight: 900;
+}
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+  color: #745c97;
+  line-height: 40px;
+}
+
+body {
+  color: #010101;
+  font-family: 'Poppins', sans-serif;
+  font-size: 18px;
+  font-weight: lighter;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  text-decoration: none;
+  color: #f05d23;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+i {
+  font-size: 3em;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
+
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+.card-white {
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,0.1);
+  border-radius: 4px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.btn-orange {
+  background-color: #f05d23;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+
+.btn-orange:hover {
+  background-color: #dfcdc3;
+}
+
+.list-inline > li {
+  list-style: none;
+  padding-left: 0px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+i:hover {
+  color: #dfcdc3;
+}
+
+ul {
+  padding: 0;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+
+
+
+
